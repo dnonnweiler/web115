@@ -1,0 +1,42 @@
+$bodyblue:   #002266;
+$wrapred:    #772222;
+$headborder: #33F000;
+$h1color:    #AAA;
+body { 
+    background-color: $bodyblue;
+    padding:0px;
+    margin:0px;}
+
+.wrapper { background-color: $wrapred;
+            width:80%;
+            margin-right: auto;
+            margin-left: auto;
+            min-height: 1000px;
+            ;
+            .header { width: 80%;
+                    margin-left:auto;
+                    margin-right:auto;
+                    min-height: 150px;
+                padding:5px;
+                border: 3px ridge $headborder;
+                h1 { text-align: center;
+                    color:$h1color;}
+                
+            }
+}
+main { background-color: $bodyblue;
+        width: 95%;
+        margin-right:auto;
+        margin-left:auto;
+    h1 {color:bisque;
+        text-align: center;}
+    p {padding:15px;
+        color:#3F3;}
+    .img {float:right;
+        height:200px;
+        width:20%;
+        clear:both;
+        background-color:paleturquoise;
+        margin:10px;}
+}
+
