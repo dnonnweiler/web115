@@ -1,0 +1,71 @@
+@import 'reset';
+$bodyblue:   #4477AA;
+$wrapred:    #777;
+$headborder: #111233;
+$h1color:    #DDA;
+$mainbox:    #444;
+$navbox:     #444;
+body { 
+    background-color: $bodyblue;
+    padding:0px;
+    margin:0px;
+    }
+
+.wrapper { background-color: $wrapred;
+            width:80%;
+            margin-right: auto;
+            margin-left: auto;
+            min-height: 1000px;
+            box-shadow: 10px 10px 15px #000;
+            .header { width: 95%;
+                    margin-left:auto;
+                    margin-right:auto;
+                    min-height: 150px;
+                padding:5px;
+                               
+                img { height:100%;
+                        width:100%;
+                        box-shadow:4px 4px 15px #000; }
+                h1 { text-align: center;
+                    color:$h1color;}
+                
+            }
+}
+nav {float:left;
+        margin-left:15px;
+        width:10%;
+    clear:right;
+    background-color: $navbox;
+    padding:15px;
+    border-bottom:0;
+   
+    ul li {list-style: none; }
+        a {text-decoration: none;
+            color: $headborder;}
+    
+            
+            }
+        
+main { background-color: $mainbox;
+        width: 80%;
+        z-index: -1;
+        margin-right:auto;
+        margin-left:15%;  
+        padding-top:5px;
+    h1 {color:$h1color;
+        background-color: $bodyblue;
+        text-align: center;
+        padding:3px;
+        padding-top:5px;
+        border-radius: 15px;
+        margin:4px;}
+    p {padding-left:25px;
+        padding-bottom:15px;
+        color:#3F3;
+        }
+    ol li {margin-left:18px;
+            padding:5px;
+            margin-bottom:10px;}
+    
+}
+

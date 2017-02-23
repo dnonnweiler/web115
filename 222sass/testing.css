@@ -1,0 +1,72 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #4477AA;
+  padding: 0px;
+  margin: 0px; }
+
+.wrapper {
+  background-color: #777;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 1000px;
+  box-shadow: 10px 10px 15px #000; }
+  .wrapper .header {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 150px;
+    padding: 5px; }
+    .wrapper .header img {
+      height: 100%;
+      width: 100%;
+      box-shadow: 4px 4px 15px #000; }
+    .wrapper .header h1 {
+      text-align: center;
+      color: #DDA; }
+
+nav {
+  float: left;
+  margin-left: 15px;
+  width: 10%;
+  clear: right;
+  background-color: #444;
+  padding: 15px;
+  border-bottom: 0; }
+  nav ul li {
+    list-style: none; }
+  nav a {
+    text-decoration: none;
+    color: #111233; }
+
+main {
+  background-color: #444;
+  width: 80%;
+  z-index: -1;
+  margin-right: auto;
+  margin-left: 15%;
+  padding-top: 5px; }
+  main h1 {
+    color: #DDA;
+    background-color: #4477AA;
+    text-align: center;
+    padding: 3px;
+    padding-top: 5px;
+    border-radius: 15px;
+    margin: 4px; }
+  main p {
+    padding-left: 25px;
+    padding-bottom: 15px;
+    color: #3F3; }
+  main ol li {
+    margin-left: 18px;
+    padding: 5px;
+    margin-bottom: 10px; }
+
+/*# sourceMappingURL=testing.css.map */
