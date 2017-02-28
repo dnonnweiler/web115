@@ -1,0 +1,25 @@
+body {padding:0;
+        margin:0;}
+
+#wrapper {width:80%;
+        margin-left:auto;
+        margin-right:auto;
+        padding:4px;
+        padding-bottom: 100px;
+        border-top:0;
+    background-color:#433;
+   
+}
+
+.contenttop  { text-align: center; }
+#contentleft { width:50%;
+                padding-left:15px;
+                }
+.thumbnails ul li {list-style:none;
+                    display: inline;
+                    padding:1px 2px 2px 4px}
+.thumbnails ul li img {border:3px ridge black;}
+.contentlower {}
+.contentlower img {align-self: center;
+        border: 10px ridge grey;                
+    margin-left:20%;}
