@@ -1,0 +1,26 @@
+body {background-color:burlywood;}
+#wrapper {width:80%;
+        margin-left:auto;
+        margin-right:auto;
+        padding:4px;
+        border-top:0;
+    background-color:#444;
+    border:4px ridge black;
+    box-shadow:4px 4px 10px black;
+   
+   
+}
+.nav {background-color: black;}
+.nav ul li {list-style: none;
+            display:inline-block;
+            }
+.nav ul li a {text-decoration: none;
+                color:#aa3300;}
+.content {width:90%;
+            margin:5px auto;}
+
+.footer{background-color:black;
+        width:100%;
+        padding:0;
+       color:#aa3300;
+        }
