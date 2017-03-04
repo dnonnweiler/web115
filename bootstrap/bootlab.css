@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(#000, #AAA);
+  background-repeat: no-repeat;
+  min-height: 900px; }
+
+.container {
+  background-color: antiquewhite;
+  max-width: 960px;
+  border: 2px solid gold;
+  min-height: 899px; }
+
+.brdr {
+  border: 2px solid black; }
+
+.brdr:nth-of-type(odd) {
+  border: 2px solid green; }
+
+.brdr:nth-of-type(even) {
+  background-color: aqua; }
+
+.row:first-child {
+  background-color: blueviolet;
+  color: aquamarine; }
+
+.brdr:nth-of-type(3) {
+  background-color: cadetblue;
+  color: aliceblue; }
+
+.nmenu {
+  background-color: firebrick; }
+  .nmenu a {
+    color: burlywood; }
+  .nmenu a:hover {
+    color: white; }
+
+.row {
+  border-bottom: 1px solid black; }
+
+.row:nth-of-type(even) {
+  background-color: firebrick;
+  color: burlywood; }
+
+.well {
+  background-color: aquamarine;
+  color: aliceblue; }
+
+.well-sm {
+  background-color: darkseagreen; }
+
+/*# sourceMappingURL=bootlab.css.map */
