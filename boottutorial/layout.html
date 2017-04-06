@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <title>Teaching Bootstrap</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="bootframe.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+</head>
+
+<body>
+    <div class="container">
+       
+       <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Bootstrap Tutorial</a>
+    </div>
+    <div>
+    <ul class="nav navbar-nav">
+      <li><a href="tutorialindex.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Customization<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="customization.html">Glyph icons</a></li>
+               <li><a href="customization.html#badges">Badges</a></li>
+               <li><a href="customization.html#typo">Typography</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Forms<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="forms.html">Input</a></li>
+               <li><a href="forms.html#template">Form template</a></li>
+               <li><a href="forms.html#alert">Alerts</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Navigation<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="navigation.html">Navbar</a></li>
+               <li><a href="navigation.html#dropdown">Dropdown</a></li>
+               <li><a href="navigation.html#pager">Pager</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Layout<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="layout.html">Tables</a></li>
+               <li><a href="layout.html#wells">Wells</a></li>
+               <li><a href="layout.html#panels">Panels</a></li>
+               <li><a href="layout.html#graph">Graph</a></li>       
+          </ul></li>
+       
+       
+     
+      
+    </ul>
+   </div>
+  </div>
+  
+</nav>
+      
+      <main>
+    
+    <h1>Layout</h1>
+    <div class="col-sm-offset-1">
+    <div class="col-md-10">
+             
+        <h2>Tables</h2>
+         <p>Tables in Bootstrap can be assigned styles to make them much easier to lay out and read. Adding the .table class to the table element producces a plain but simple to read table.
+ </p>
+         <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+       <p>adding the .table-striped class alternates the row background, for a much easier to read layout.</p>
+        
+        <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+         
+         <hr>
+          <h2 id="wells">Wells</h2>
+         <div class="well"><p>The .well class creates a thin rounded border around the element, assigning additional padding and a grey background, this is used to break up information fields on a site so it is easier to read.
+             </p></div>
+        
+         
+         
+         <hr>
+        <div id="panels" class="panel panel-default"><div class="panel-heading"><h2>Panels</h2></div>
+        <div class="panel-body">
+         <p> Panels are more advanced than wells and can be used to create tab card style layouts for ease of dissemination between article headings and the information contained within.
+            </p></div></div>
+         <div class="panel-group">
+             <div class="panel panel-success">
+                 <div class="panel-body">the .panel-group when applied to a container, removes the bottom-margin of each panel</div>
+                 <div class="panel panel-danger">There are also multi use panels, using the same variations as the alert panes.</div>
+    
+             </div>
+         </div>
+                 
+         <hr>
+         <h2 id="graph">Graph layout</h2>
+         <p>The graph effects or column classes within bootstrap speeds up the arrangement of a developing page by a considerable amount, all columns can add up to any variation of 12, you could have 12 single column div elements or two 6 column. These columns also come in three heights, sm, md, lg, these are set to determine the line height of the content.<br>To utilize the graph capabilities of Bootstrap, it is a 3 part class, col-"size"-"space" for example</p>
+         <div class="col-sm-2 sm1">col-sm-2</div>
+         <div class="col-md-6 sm6">col-sm-6</div>
+         <div class="col-lg-4 sm3">col-sm-4</div>
+         
+        </div></div>
+        
+        <div class="col-sm-offset-1"></div>
+        
+      </main>
+       
+  <footer class="navbar-fixed-bottom">
+     
+     &nbsp;
+    <div class="col-lg-12"></div>
+
+    
+  </footer>     
+       
+    </div>
+</body>
+</html>

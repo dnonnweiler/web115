@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <title>Teaching Bootstrap</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="bootframe.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+</head>
+
+<body>
+    <div class="container">
+       
+       <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Bootstrap Tutorial</a>
+    </div>
+    <div>
+    <ul class="nav navbar-nav">
+      <li><a href="tutorialindex.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Customization<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="customization.html">Glyph icons</a></li>
+               <li><a href="customization.html#badges">Badges</a></li>
+               <li><a href="customization.html#typo">Typography</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Forms<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="forms.html">Input</a></li>
+               <li><a href="forms.html#template">Form template</a></li>
+               <li><a href="forms.html#alert">Alerts</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Navigation<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="navigation.html">Navbar</a></li>
+               <li><a href="navigation.html#dropdown">Dropdown</a></li>
+               <li><a href="navigation.html#pagination">Pagination</a></li>
+               <li><a href="navigation.html#pager">Pager</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Layout<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="layout.html">Tables</a></li>
+               <li><a href="layout.html#wells">Wells</a></li>
+               <li><a href="layout.html#panels">Panels</a></li>
+               <li><a href="layout.html#graph">Graph</a></li>       
+          </ul></li>
+       
+       
+     
+      
+    </ul>
+   </div>
+  </div>
+  
+</nav>
+      
+      <main>
+    
+    <h1>Customization</h1>
+    <div class="col-sm-offset-1">
+    <div class="col-md-10">
+    <h2>Glyph Icons</h2>
+          
+    <p>Glyphicons are small sprites that can be used to label and inform users of the purpose of a field or entry. They can be placed outside of a field or, utilizing the span element, be placed within other elements such as to label a search button <button type="button" class="btn" ><span class="glyphicon glyphicon-search"></span>&nbsp;Search</button><br> The class identifiers for glyph icons are<br><br>.glyphicon: which defines the space that a glyph icon will take<br>
+       .glyphicon-<em>glyphname</em>: which decides what sprite is called. For example .glyphicon-search produces <span class=" glyphicon glyphicon-search"></span> </p>
+        
+         <hr>
+         
+        <h2 id="badges">Badges</h2>
+        <p>Badges are used to place labels or highlight text next to another field using the class .badge you can include any text inside of the element, so it is useful as both a styling implement and an informative element.<br> <br><span class="alert alert-info">Example &nbsp;
+            <span>Items in Cart - <span class="badge">5</span></span></span>
+</p>
+         
+         
+         <hr>
+          <h2 id="typo">Typography</h2>
+        <p>Bootstrap uses a default font size of 14, slightly larger than the standard font in most browsers, this difference extends into "p" and heading elements as well, with the default in bootstrap being slightly larger, with the line height adjusted accordingly, this leads to a very readable website with smooth spaces between paragraphs. There is several custom elements included with bootstrap that will allow for further customisation of the typography of elements.</p><p> The "small" element reduces the font size by approximately half and uses a lighter shade to help highlight subtext in a heading.</p><h3>Example&nbsp;<small>This font is smaller</small></h3> <p>The mark element can be used to <mark>highlight text (default is light yellow)</mark><br><br> "abbr" can be used as a simple informative mouseover, especially useful for abbreviating well known names while leaving a title in the element to explain in mouseover. Example <abbr title="World Wildlife Federation">WWF</abbr><br> <blockquote>"blockquote" becomes a nesting element in bootstrap, adding margins and special styling to other elements within.</blockquote>
+         
+         
+         <hr>
+          
+        </div></div>
+        
+        <div class="col-sm-offset-1"></div>
+        
+      </main>
+       
+  <footer class="navbar-fixed-bottom">
+     
+     
+    
+
+    
+  </footer>     
+       
+    </div>
+</body>
+</html>

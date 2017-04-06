@@ -1,0 +1,18 @@
+body {background-color: tan;}
+
+.container {background-color:lightgray;
+            padding-top: 55px;
+            max-width:960px;
+            border:2px solid black;
+            box-shadow: 4px 4px 10px black;
+            min-height: 1300px;}
+
+nav {box-shadow: 2px 2px 5px black;
+    max-width: 958px;
+    margin:0 auto;}
+.sm1 {background-color: antiquewhite;}
+.sm3 {background-color: crimson;}
+
+footer {margin:0 auto;
+    padding: 0 15px;
+        max-width: 960px;}

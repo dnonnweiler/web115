@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <title>Teaching Bootstrap</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="bootframe.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+</head>
+
+<body>
+    <div class="container">
+       
+       <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Bootstrap Tutorial</a>
+    </div>
+    <div>
+    <ul class="nav navbar-nav">
+      <li><a href="tutorialindex.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Customization<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="customization.html">Glyph icons</a></li>
+               <li><a href="customization.html#badges">Badges</a></li>
+               <li><a href="customization.html#typo">Typography</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Forms<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="forms.html">Input</a></li>
+               <li><a href="forms.html#template">Form template</a></li>
+               <li><a href="forms.html#alert">Alerts</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Navigation<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="navigation.html">Navbar</a></li>
+               <li><a href="navigation.html#dropdown">Dropdown</a></li>
+               <li><a href="navigation.html#pagination">Pagination</a></li>
+               <li><a href="navigation.html#pager">Pager</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Layout<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="layout.html">Tables</a></li>
+               <li><a href="layout.html#wells">Wells</a></li>
+               <li><a href="layout.html#panels">Panels</a></li>
+               <li><a href="layout.html#graph">Graph</a></li>       
+          </ul></li>
+       
+       
+     
+      
+    </ul>
+   </div>
+  </div>
+  
+</nav>
+      
+      <main>
+    
+    <h1>Forms and Input</h1>
+    <div class="col-sm-offset-1">
+    <div class="col-md-10">
+             
+        <h2>Input</h2>
+         <p>Bootstrap comes with several simple to use pre designed form controls, text area, checkboxes, radio buttons, and Select lists all have pre set styles in bootstrap. Most will be created by applying the .form-group class to containing elements </p>
+         <p>Text area uses form-group on the container, and the textarea element with the .form-control class, rows is a variable that you can set.</p>
+         <div class="form-group">
+             <label for="textarea">This is a Text Area:</label>
+             <textarea class="form-control" rows="5" id="input"></textarea>
+         </div>
+         
+         
+         <hr>
+          <h2 id="template">Forms</h2>
+         <p>The library also contains three form templates, The in-line and verticle are very simple to utilize and can be implemented within a matter of moments. Below is an example of a  vertical form, which is the bootstrap default. Forms like these are created by using the "form" element around a div using the "form-group" class, the fields within follow standard form elements.</p>
+         
+           <div class="well">
+             <code> <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button></code>
+         </div>
+         
+         
+         <hr>
+          <h2 id="alert">Alerts</h2>
+         <p>Alerts are very useful for highlighting an area, not necessarily in a pop up format but to bring attention to any single area which needs focus.
+</p><p>alerts are variations on a standard well, with color added to highlight the information within</p>
+        <div class="alert alert-success">
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div>
+
+<div class="alert alert-info">
+  <strong>Info!</strong> Indicates a neutral informative change or action.
+</div>
+
+<div class="alert alert-warning">
+  <strong>Warning!</strong> Indicates a warning that might need attention.
+</div>
+
+<div class="alert alert-danger">
+  <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+</div>
+         
+         
+         <hr>
+         
+        </div></div>
+        
+        <div class="col-sm-offset-1"></div>
+        
+      </main>
+       
+  <footer class="navbar-fixed-bottom">
+     
+     
+    
+
+    
+  </footer>     
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <title>Teaching Bootstrap</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="bootframe.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+</head>
+
+<body>
+    <div class="container">
+       
+       <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Bootstrap Tutorial</a>
+    </div>
+    <div>
+    <ul class="nav navbar-nav">
+      <li><a href="tutorialindex.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Customization<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="customization.html">Glyph icons</a></li>
+               <li><a href="customization.html#badges">Badges</a></li>
+               <li><a href="customization.html#typo">Typography</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Forms<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="forms.html">Input</a></li>
+               <li><a href="forms.html#template">Form template</a></li>
+               <li><a href="forms.html#alert">Alerts</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Navigation<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="navigation.html">Navbar</a></li>
+               <li><a href="navigation.html#dropdown">Dropdown</a></li>
+               <li><a href="navigation.html#pager">Pager</a></li>       
+          </ul></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Layout<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="layout.html">Tables</a></li>
+               <li><a href="layout.html#wells">Wells</a></li>
+               <li><a href="layout.html#panels">Panels</a></li>
+               <li><a href="layout.html#graph">Graph</a></li>       
+          </ul></li>
+        
+       
+     
+      
+    </ul>
+   </div>
+  </div>
+  
+</nav>
+      
+      <main>
+    
+    <h1>Navigation</h1>
+    <div class="col-sm-offset-1">
+    <div class="col-md-10">
+             
+        <h2>Navbar</h2>
+         <p>The Navbar element within bootstrap is one of its best and easiest to use classes, what used to take extensive javascript and CSS is made much simpler through Bootstrap classes, automatically placing a nav ul as an inline menu. An example of the Navbar funciton is at the top of the page. The class .navbar defines the nav element within the page while .navbar-default selects the behaviour and color, .navbar-inverse uses a black background.
+          applying the .nav and .navbar-nav classes to ul and li elements within a navbar container will behave as an inline box, staying on the same level as well as formatting the apperance of the text.
+</p>
+        <div class="navbar navbar-inverse"><ul class="nav navbar-nav"><li><a>Sample</a></li>
+        <li><a>Sample</a></li><li><a>Sample</a></li><li><a>Sample</a></li></ul></div>
+         
+         <hr>
+          <h2 id="dropdown">Dropdown</h2>
+         <p>The navigation bar class allows for easy and effortless implementation of nesting of ul elements to create dropdown menus, this is done by appling the .dropdown class to a li element within the navbar container, then creating a ul using the class .dropdown-menu within the li container.
+ </p>
+         <div class="navbar navbar-inverse"><ul class="nav navbar-nav"><li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Customization<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+               <li><a href="#">Glyph icons</a></li>
+               <li><a href="#">Badges</a></li>
+               <li><a href="#">Typography</a></li>       
+             </ul></li></ul></div>
+         
+         <hr>
+          <h2 id="pager">Pager</h2>
+         <p> Creates a set of arrows to the right and left,, to create the pager object, just place a ul using the class .pager the arrows can be set to the limits of the page wrap by using .previous and .next on the li elements within.</p>
+         
+         <ul class="pager">
+             <li><a href="#">Go back</a></li>
+             <li><a href="#">Forward</a></li>
+         </ul>
+          <ul class="pager">
+             <li class="previous"><a href="#">Go back</a></li>
+             <li class="next"><a href="#">Forward</a></li>
+         </ul>
+         
+         
+         <hr>
+       
+        </div></div>
+        
+        <div class="col-sm-offset-1"></div>
+        
+      </main>
+       
+  <footer class="navbar-fixed-bottom">
+     
+     
+    
+
+    
+  </footer>     
+       
+    </div>
+</body>
+</html>
