@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide|Orbitron);
+
+
+$retro: 'Audiowide', sans-serif;
+$fontbasic: 'Orbitron', sans-serif;
+$subtle: #779;
+$obvious: #FF2;
+$mint: #DFD;
+
+body {background-image: url(../img/starbg.png);
+    background-repeat: no-repeat;
+    background-color: lightgrey;
+    color:#fff;}
+
+.container {margin-right:auto;
+            margin-left:auto;
+            background-color:black;
+            //padding-top: 55px;
+            max-width:1060px;
+            border:2px solid black;
+            box-shadow: 4px 4px 10px black;
+            min-height: 1080px;}
+
+
+main {padding:25px 5px 0px 15px;
+    }
+
+.tv {box-shadow: inset 0 0 40px 10px #000;
+    //background-color:#aaa;
+    border-radius: 55px;
+    padding-top: 32%;
+    width:40%;
+    min-width: 320px;
+    min-height: 240px;
+    margin:0 10px 0 25px;
+    position: relative;
+        p, li{position: absolute;
+    top:25px;
+    left:25px;
+    bottom:25px;
+    right:15px;}
+    li {list-style: none;}
+} 
+a {text-decoration: none;
+   color: $mint;
+    font-weight: 500;
+        }
+.pac {background-image: url(../img/pacman.png);
+    background-repeat: no-repeat;
+    }
+.kof {background-image: url(../img/kof.jpg);
+    background-repeat: no-repeat;}
+.tek {background-image: url(../img/tek.jpg);
+    background-repeat: no-repeat;}
+a:hover {
+-webkit-animation:rainbow 1s infinite;
+-ms-animation:rainbow 1s infinite;
+-o-animation:rainbow 1s infinite;
+        animation:rainbow 1s infinite;}
+p, a {font-family: $fontbasic;
+    }
+.subtle {color: $subtle;}
+.obvious {color: $obvious;}
+h1,h2,h3,h4,h5 { color: #fff;
+    font-family: $retro;}
+
+/* Rainbow Text Kit by Beben Koben - CodePen */
+
+.rainbow {
+-webkit-animation:rainbow 1s infinite;
+-ms-animation:rainbow 1s infinite;
+-o-animation:rainbow 1s infinite;
+animation:rainbow 1s infinite;
+}
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
