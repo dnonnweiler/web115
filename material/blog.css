@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide|Orbitron);
+
+header {box-shadow: 8px 4px 10px #000;}
+
+.container {
+    margin:0 auto 0 auto;
+  background-color: darkcyan;
+  padding-top: 55px;
+  max-width: 960px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 10px black;
+  min-height: 899px; }
+.tblpad {padding:0 15px;}
+main {padding:0 15px;}
+.rainbow {
+  -webkit-animation: rainbow 1s infinite;
+  -ms-animation: rainbow 1s infinite;
+  -o-animation: rainbow 1s infinite;
+  animation: rainbow 1s infinite; }
+
+@-webkit-keyframes rainbow {
+  0% {
+    color: #ff0000; }
+  10% {
+    color: #ff8000; }
+  20% {
+    color: #ffff00; }
+  30% {
+    color: #80ff00; }
+  40% {
+    color: #00ff00; }
+  50% {
+    color: #00ff80; }
+  60% {
+    color: #00ffff; }
+  70% {
+    color: #0080ff; }
+  80% {
+    color: #0000ff; }
+  90% {
+    color: #8000ff; }
+  100% {
+    color: #ff0080; } }
+@-ms-keyframes rainbow {
+  0% {
+    color: #ff0000; }
+  10% {
+    color: #ff8000; }
+  20% {
+    color: #ffff00; }
+  30% {
+    color: #80ff00; }
+  40% {
+    color: #00ff00; }
+  50% {
+    color: #00ff80; }
+  60% {
+    color: #00ffff; }
+  70% {
+    color: #0080ff; }
+  80% {
+    color: #0000ff; }
+  90% {
+    color: #8000ff; }
+  100% {
+    color: #ff0080; } }
+@-o-keyframes rainbow {
+  0% {
+    color: #ff0000; }
+  10% {
+    color: #ff8000; }
+  20% {
+    color: #ffff00; }
+  30% {
+    color: #80ff00; }
+  40% {
+    color: #00ff00; }
+  50% {
+    color: #00ff80; }
+  60% {
+    color: #00ffff; }
+  70% {
+    color: #0080ff; }
+  80% {
+    color: #0000ff; }
+  90% {
+    color: #8000ff; }
+  100% {
+    color: #ff0080; } }
+@keyframes rainbow {
+  0% {
+    color: #ff0000; }
+  10% {
+    color: #ff8000; }
+  20% {
+    color: #ffff00; }
+  30% {
+    color: #80ff00; }
+  40% {
+    color: #00ff00; }
+  50% {
+    color: #00ff80; }
+  60% {
+    color: #00ffff; }
+  70% {
+    color: #0080ff; }
+  80% {
+    color: #0000ff; }
+  90% {
+    color: #8000ff; }
+  100% {
+    color: #ff0080; } }
